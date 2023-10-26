@@ -1,0 +1,30 @@
+@font-face {
+    font-family: buttermilk;
+        src: url();
+    }
+    
+    *{margin:0 ;
+    padding:0 ;}
+    
+    html,body{height: 100%;
+    width: 100%;}
+    
+    #bg{height: 100%;
+    width: 100%;
+    background-image: url(/img.jpeg);
+    background-size:cover ;
+    
+    }
+    image{height: 100px;
+    width: 100px;}
+    
+    h1{position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: buttermilk;
+    font-size:190px ;
+    font-weight: 100;
+    color: aquamarine;
+    mix-blend-mode: difference;}
+    
